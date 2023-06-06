@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="milestone" content="Foster-Pet">
+  <script src="https://tinyurl.com/2p9w5adj"></script>
+  <title>Foster A Pet</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Sign Up to Foster a Pet</h1>
+    <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
+  </header>
+  <form action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Jane Doe" name="name">
+    <label for="DOB">Date of Birth</label>
+    <input type="date" id="dob" name="dob">
+    <label for="email" id="email">Email:</label>
+    <input type="email" id="email" placeholder="example@domain.com" name="dob">
+    <label for="password" id="PW">Password:</label>
+    <input type="PW" id="password" name="PW">
+    <label for="" id="petnum"></label>
+    <label for="num-pets" id="petnum">Number of Pets</label>
+    <input type="number" min="0" id="petnum" name="petNum">
+    <h4>Have you fostered before?</h4>
+    <label for="yes">
+      <input type="radio" id="yes" name="prev-experience">Yes</label>
+    </label>
+    <label for="no">
+      <input type="radio" id="no" name="prev-experience">No</label>
+    </label>
+
+    <h4>Which of these apply to your home?</h4>
+
+    <label for="apartment" id="apartment">Apartment</label>
+    <input type="checkbox" id="apartment" name="apartment">
+    <label for="children" id="children">Children</label>
+    <input type="checkbox" id="children" name="children">
+    <label for="yard" id="Yard">Yard</label>
+    <input type="checkbox" id="Yard" name="Yard">
+
+    <input type="submit" value="SignUp!">
+
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Availabile Pets</th>
+      </tr>
+      <tr>
+        <th colspan="1">Name</th>
+        <th colspan="1">Age</th>
+        <th colspan="1">Breed</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Benny</td>
+      <td>12</td>
+      <td>Golden Retriever</td>
+    </tr>
+    <tr>
+      <td>Felix</td>
+      <td>5</td>
+      <td>Orange Tabby</td>
+    </tr>
+    <tr>
+      <td>Cooper</td>
+      <td>8</td>
+      <td>German Shepard</td>
+    </tr>
+    <tr>
+      <td>Anna</td>
+      <td>3</td>
+      <td>Long-Haired Dachshund</td>
+    </tr>
+
+
+  </table>
+
+</body>
+
+</html>
+
+
+<!-- <table>, <tr>, <td></td> <tbody> <thead> <tfoot> <td> | use "For=" for labels and "id=" for input | input requires type;
